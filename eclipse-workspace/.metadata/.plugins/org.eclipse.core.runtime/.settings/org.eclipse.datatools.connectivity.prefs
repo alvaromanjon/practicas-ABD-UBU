@@ -1,0 +1,8 @@
+eclipse.preferences.version=1
+oracle.eclipse.tools.database.11.driverTemplate=true
+oracle.eclipse.tools.database.12.driverTemplate=true
+org.eclipse.datatools.enablement.ibm.db2.luw.driverTemplate=true
+org.eclipse.datatools.enablement.ibm.db2.luw.jdbc4.driverTemplate=true
+org.eclipse.datatools.enablement.ibm.db2.luw.jdbc4.kerberosDriverTemplate=true
+org.eclipse.datatools.enablement.ibm.db2.luw.kerberosDriverTemplate=true
+org.eclipse.datatools.enablement.ibm.db2.luw.other.driverTemplate=true
