@@ -182,17 +182,22 @@ public class EsqueletoCompraBilleteTren {
     			throw new CompraBilleteTrenException(1);
     		}
     		
-    		UPD_viajes = con.prepareStatement("update viajes set nPlazasLibres = nPlazasLibres - ?"
-    				+ "from viajes inner join recorridos on viajes.idRecorrido = recorridos.idRecorrido "
-    				+ "where (fecha = ? and estacionOrigen = ? and estacionDestino = ? "
-    				+ "and horaSalida-trunc(horaSalida) = ?-trunc(?))");
+    		UPD_viajes = con.prepareStatement("update (select viajes.nPlazasLibres as plazas "
+    				+ "from viajes inner join recorridos "
+    				+ "on viajes.idRecorrido = recorridos.idRecorrido "
+    				+ "where fecha = ? and estacionOrigen = ? and estacionDestino = ? "
+    				+ "and horaSalida-trunc(horaSalida) = ?-trunc(?)"
+    				+ ") t "
+    				+ "set t.plazas = t.plazas - ?");
     		
-    		UPD_viajes.setInt(1, p_nroPlazas);
-    		UPD_viajes.setDate(2, v_fecha);
-    		UPD_viajes.setString(3, p_origen);
-    		UPD_viajes.setString(4, p_destino);
+    		UPD_viajes.setDate(1, v_fecha);
+    		UPD_viajes.setString(2, p_origen);
+    		UPD_viajes.setString(3, p_destino);
+    		UPD_viajes.setTimestamp(4, v_hora);
     		UPD_viajes.setTimestamp(5, v_hora);
-    		UPD_viajes.setTimestamp(6, v_hora);
+    		UPD_viajes.setInt(6, p_nroPlazas);
+    		
+    		UPD_viajes.executeUpdate();
     		
     		INS_ticket = con.prepareStatement("insert into tickets (idTicket, idViaje, fechaCompra,	cantidad, precio) "
     				+ "values (seq_tickets.nextval, ?, CURRENT_DATE, ?, ?)");
@@ -200,6 +205,8 @@ public class EsqueletoCompraBilleteTren {
     		INS_ticket.setInt(1, rs.getInt("idViaje"));
     		INS_ticket.setInt(2, p_nroPlazas);
     		INS_ticket.setBigDecimal(3, (rs.getBigDecimal("precio")).multiply(new BigDecimal(p_nroPlazas)));
+    		
+    		INS_ticket.executeUpdate();
     		
     		con.commit();
     		
