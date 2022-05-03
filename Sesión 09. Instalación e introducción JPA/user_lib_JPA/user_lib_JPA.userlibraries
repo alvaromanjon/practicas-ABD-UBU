@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<eclipse-userlibraries version="2">
+    <library name="c3p0" systemlibrary="false">
+        <archive path="/user_lib_JPA/lib/c3p0/c3p0-0.9.5.3.jar"/>
+        <archive path="/user_lib_JPA/lib/c3p0/hibernate-c3p0-5.4.10.Final.jar"/>
+        <archive path="/user_lib_JPA/lib/c3p0/mchange-commons-java-0.2.15.jar"/>
+    </library>
+    <library name="EclipseLink" systemlibrary="false">
+        <archive path="/user_lib_JPA/lib/EclipseLink/extension/org.eclipse.persistence.extension_2.7.4.v20190115-ad5b7c6b2a.jar"/>
+        <archive path="/user_lib_JPA/lib/EclipseLink/extension/org.eclipse.persistence.extension.source_2.7.4.v20190115-ad5b7c6b2a.jar"/>
+        <archive path="/user_lib_JPA/lib/EclipseLink/jpa/jakarta.persistence_2.2.2.jar"/>
+        <archive path="/user_lib_JPA/lib/EclipseLink/jpa/jakarta.persistence.source_2.2.2.jar"/>
+        <archive path="/user_lib_JPA/lib/EclipseLink/jpa/org.eclipse.persistence.jpa.modelgen_2.7.4.v20190115-ad5b7c6b2a.jar"/>
+        <archive path="/user_lib_JPA/lib/EclipseLink/jpa/org.eclipse.persistence.jpa.modelgen.source_2.7.4.v20190115-ad5b7c6b2a.jar"/>
+        <archive path="/user_lib_JPA/lib/EclipseLink/jpa/org.eclipse.persistence.jpars_2.7.4.v20190115-ad5b7c6b2a.jar"/>
+        <archive path="/user_lib_JPA/lib/EclipseLink/jpa/org.eclipse.persistence.jpars.source_2.7.4.v20190115-ad5b7c6b2a.jar"/>
+        <archive path="/user_lib_JPA/lib/EclipseLink/eclipselink.jar"/>
+    </library>
+    <library name="FileSystemContext" systemlibrary="false">
+        <archive path="/user_lib_JPA/lib/FileSystemContext/fscontext-4.6-b01.jar"/>
+    </library>
+    <library name="Hibernate" systemlibrary="false">
+        <archive path="/user_lib_JPA/lib/Hibernate/required/antlr-2.7.7.jar"/>
+        <archive path="/user_lib_JPA/lib/Hibernate/required/classmate-1.5.1.jar"/>
+        <archive path="/user_lib_JPA/lib/Hibernate/required/dom4j-2.1.1.jar"/>
+        <archive path="/user_lib_JPA/lib/Hibernate/required/FastInfoset-1.2.15.jar"/>
+        <archive path="/user_lib_JPA/lib/Hibernate/required/hibernate-commons-annotations-5.1.0.Final.jar"/>
+        <archive path="/user_lib_JPA/lib/Hibernate/required/hibernate-jpa-2.1-api-1.0.0.Final.jar"/>
+        <archive path="/user_lib_JPA/lib/Hibernate/required/istack-commons-runtime-3.0.7.jar"/>
+        <archive path="/user_lib_JPA/lib/Hibernate/required/jandex-2.1.1.Final.jar"/>
+        <archive path="/user_lib_JPA/lib/Hibernate/required/javassist-3.24.0-GA.jar"/>
+        <archive path="/user_lib_JPA/lib/Hibernate/required/javax.activation-api-1.2.0.jar"/>
+        <archive path="/user_lib_JPA/lib/Hibernate/required/javax.persistence-api-2.2.jar"/>
+        <archive path="/user_lib_JPA/lib/Hibernate/required/jaxb-api-2.3.1.jar"/>
+        <archive path="/user_lib_JPA/lib/Hibernate/required/jaxb-runtime-2.3.1.jar"/>
+        <archive path="/user_lib_JPA/lib/Hibernate/required/jboss-logging-3.3.2.Final.jar"/>
+        <archive path="/user_lib_JPA/lib/Hibernate/required/jboss-transaction-api_1.2_spec-1.1.1.Final.jar"/>
+        <archive path="/user_lib_JPA/lib/Hibernate/required/stax-ex-1.8.jar"/>
+        <archive path="/user_lib_JPA/lib/Hibernate/required/txw2-2.3.1.jar"/>
+        <archive path="/user_lib_JPA/lib/Hibernate/required/javax.annotation-api-1.3.2.jar"/>
+        <archive path="/user_lib_JPA/lib/Hibernate/envers/hibernate-envers-5.4.13.Final.jar"/>
+        <archive path="/user_lib_JPA/lib/Hibernate/jpa-metamodel-generator/hibernate-jpamodelgen-5.4.13.Final.jar"/>
+        <archive path="/user_lib_JPA/lib/Hibernate/required/byte-buddy-1.10.7.jar"/>
+        <archive path="/user_lib_JPA/lib/Hibernate/required/hibernate-core-5.4.13.Final.jar"/>
+    </library>
+    <library name="Oracle" systemlibrary="false">
+        <archive path="/user_lib_JPA/lib/Oracle/ojdbc6.jar"/>
+        <archive path="/user_lib_JPA/lib/Oracle/ucp.jar"/>
+    </library>
+    <library name="SLF4J" systemlibrary="false">
+        <archive path="/user_lib_JPA/lib/SLF4J/log4j-api-2.13.1.jar"/>
+        <archive path="/user_lib_JPA/lib/SLF4J/log4j-core-2.13.1.jar"/>
+        <archive path="/user_lib_JPA/lib/SLF4J/log4j-slf4j-impl-2.13.1.jar"/>
+        <archive path="/user_lib_JPA/lib/SLF4J/slf4j-api-1.7.30.jar"/>
+    </library>
+</eclipse-userlibraries>

@@ -1,0 +1,1 @@
+Proyecto básico y mínimo para comprobar que JPA "funciona".
