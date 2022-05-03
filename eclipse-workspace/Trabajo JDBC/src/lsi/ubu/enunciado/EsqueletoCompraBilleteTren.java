@@ -161,7 +161,8 @@ public class EsqueletoCompraBilleteTren {
     		
     		SEL_viajes = con.prepareStatement("select * from viajes "
     				+ "inner join recorridos on viajes.idRecorrido = recorridos.idRecorrido "
-    				+ "where (fecha = ? and estacionOrigen = ? and estacionDestino = ? and horaSalida-trunc(horaSalida) = ?-trunc(?))");
+    				+ "where (fecha = ? and estacionOrigen = ? and estacionDestino = ? "
+    				+ "and horaSalida-trunc(horaSalida) = ?-trunc(?))");
     		
     		SEL_viajes.setDate(1, v_fecha);
     		SEL_viajes.setString(2, p_origen);
@@ -175,7 +176,6 @@ public class EsqueletoCompraBilleteTren {
     			throw new CompraBilleteTrenException(2);
     		}
    
-    		BigDecimal precio = rs.getBigDecimal("precio");
     		BigDecimal plazasLibres = rs.getBigDecimal("nPlazasLibres").subtract(new BigDecimal(p_nroPlazas));
     		
     		if (plazasLibres.compareTo(BigDecimal.ZERO) < 0) {
@@ -184,7 +184,8 @@ public class EsqueletoCompraBilleteTren {
     		
     		UPD_viajes = con.prepareStatement("update viajes set nPlazasLibres = nPlazasLibres - ?"
     				+ "from viajes inner join recorridos on viajes.idRecorrido = recorridos.idRecorrido "
-    				+ "where (fecha = ? and estacionOrigen = ? and estacionDestino = ? and horaSalida-trunc(horaSalida) = ?-trunc(?))");
+    				+ "where (fecha = ? and estacionOrigen = ? and estacionDestino = ? "
+    				+ "and horaSalida-trunc(horaSalida) = ?-trunc(?))");
     		
     		UPD_viajes.setInt(1, p_nroPlazas);
     		UPD_viajes.setDate(2, v_fecha);
@@ -192,6 +193,13 @@ public class EsqueletoCompraBilleteTren {
     		UPD_viajes.setString(4, p_destino);
     		UPD_viajes.setTimestamp(5, v_hora);
     		UPD_viajes.setTimestamp(6, v_hora);
+    		
+    		INS_ticket = con.prepareStatement("insert into tickets (idTicket, idViaje, fechaCompra,	cantidad, precio) "
+    				+ "values (seq_tickets.nextval, ?, CURRENT_DATE, ?, ?)");
+    		
+    		INS_ticket.setInt(1, rs.getInt("idViaje"));
+    		INS_ticket.setInt(2, p_nroPlazas);
+    		INS_ticket.setBigDecimal(3, (rs.getBigDecimal("precio")).multiply(new BigDecimal(p_nroPlazas)));
     		
     		con.commit();
     		
@@ -207,6 +215,10 @@ public class EsqueletoCompraBilleteTren {
     		
     		if (UPD_viajes != null) {
         		UPD_viajes.close();
+        	}
+    		
+    		if (INS_ticket != null) {
+    			INS_ticket.close();
         	}
     		
         	if (con != null) {
