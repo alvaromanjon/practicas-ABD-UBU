@@ -158,7 +158,7 @@ public class EsqueletoCompraBilleteTren {
 
     	try {
     		con = pool.getConnection();
-    		int precio;
+    		float precio;
     		
     		SEL_viajes = con.prepareStatement("select * from viajes inner join recorridos on viajes.idRecorrido = recorridos.idRecorrido "
     				+ "where (viajes.fecha = ? and recorridos.estacionOrigen = ? and recorridos.estacionDestino = ? and recorridos.horaSalida-trunc(recorridos.horaSalida) = ?-trunc(?))");
@@ -169,6 +169,12 @@ public class EsqueletoCompraBilleteTren {
     		SEL_viajes.setTimestamp(11, v_hora);
     		
     		rs = SEL_viajes.executeQuery();
+    		
+    		if (!rs.next()) {
+    			throw new CompraBilleteTrenException(2);
+    		} else {
+    			precio = rs.getFloat("recorridos.precio");
+    		}
     		
     	} catch(SQLException e) {
     		
