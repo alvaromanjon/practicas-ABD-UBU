@@ -168,8 +168,6 @@ public class EsqueletoCompraBilleteTren {
     		SEL_viajes.setTimestamp(10, v_hora);
     		SEL_viajes.setTimestamp(11, v_hora);
     		
-    		rs = SEL_viajes.executeQuery();
-    		
     	} catch(SQLException e) {
     		
     	}
