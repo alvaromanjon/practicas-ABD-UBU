@@ -159,7 +159,8 @@ public class EsqueletoCompraBilleteTren {
     	try {
     		con = pool.getConnection();
     		
-    		SEL_viajes = con.prepareStatement("select * from viajes inner join recorridos on viajes.idRecorrido = recorridos.idRecorrido "
+    		SEL_viajes = con.prepareStatement("select * from viajes "
+    				+ "inner join recorridos on viajes.idRecorrido = recorridos.idRecorrido "
     				+ "where (fecha = ? and estacionOrigen = ? and estacionDestino = ? and horaSalida-trunc(horaSalida) = ?-trunc(?))");
     		
     		SEL_viajes.setDate(1, v_fecha);
@@ -175,6 +176,23 @@ public class EsqueletoCompraBilleteTren {
     		}
    
     		BigDecimal precio = rs.getBigDecimal("precio");
+    		BigDecimal plazasLibres = rs.getBigDecimal("nPlazasLibres").subtract(new BigDecimal(p_nroPlazas));
+    		
+    		if (plazasLibres.compareTo(BigDecimal.ZERO) < 0) {
+    			throw new CompraBilleteTrenException(1);
+    		}
+    		
+    		UPD_viajes = con.prepareStatement("update viajes set nPlazasLibres = nPlazasLibres - ?"
+    				+ "from viajes inner join recorridos on viajes.idRecorrido = recorridos.idRecorrido "
+    				+ "where (fecha = ? and estacionOrigen = ? and estacionDestino = ? and horaSalida-trunc(horaSalida) = ?-trunc(?))");
+    		
+    		UPD_viajes.setInt(1, p_nroPlazas);
+    		UPD_viajes.setDate(2, v_fecha);
+    		UPD_viajes.setString(3, p_origen);
+    		UPD_viajes.setString(4, p_destino);
+    		UPD_viajes.setTimestamp(5, v_hora);
+    		UPD_viajes.setTimestamp(6, v_hora);
+    		
     		con.commit();
     		
     	} catch(SQLException e) {
@@ -186,6 +204,11 @@ public class EsqueletoCompraBilleteTren {
     		if (SEL_viajes != null) {
         		SEL_viajes.close();
         	}
+    		
+    		if (UPD_viajes != null) {
+        		UPD_viajes.close();
+        	}
+    		
         	if (con != null) {
         		con.close();
         	}
