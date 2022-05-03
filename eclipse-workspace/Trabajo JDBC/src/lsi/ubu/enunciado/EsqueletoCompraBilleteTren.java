@@ -15,8 +15,6 @@ import org.slf4j.LoggerFactory;
 
 import lsi.ubu.util.ExecuteScript;
 import lsi.ubu.util.PoolDeConexiones;
-import lsi.ubu.util.exceptions.SGBDError;
-import lsi.ubu.util.exceptions.oracle.OracleSGBDErrorUtil;
 
 /**
  * CompraBilleteTren:
@@ -286,24 +284,25 @@ public class EsqueletoCompraBilleteTren {
 	public static void anularBillete(int p_idTicket) throws SQLException {
 		PoolDeConexiones pool = PoolDeConexiones.getInstance();
 		Connection con = null;
+		PreparedStatement SEL_ticket = null;
 		PreparedStatement DEL_ticket = null;
-
+		ResultSet rs = null; 
+		
 		try {
 			con = pool.getConnection();
-
-			DEL_ticket = con.prepareStatement("delete from tickets where id_ticket = ?");
-			DEL_ticket.setInt(1, p_idTicket);
-
-			try {
-				DEL_ticket.executeUpdate();
-			} catch (SQLException e) {
-				if (new OracleSGBDErrorUtil().checkExceptionToCode(e,SGBDError.PK_VIOLATED)) {
-					throw new CompraBilleteTrenException(3);
-				} else {
-					throw e;
-				}
+			
+			SEL_ticket = con.prepareStatement("select * from tickets where idTicket = ?");
+			SEL_ticket.setInt(1, p_idTicket);
+			rs = SEL_ticket.executeQuery();
+			
+			if (!rs.next()) {
+				throw new CompraBilleteTrenException(3);
 			}
-
+			
+			DEL_ticket = con.prepareStatement("delete from tickets where idTicket = ?");
+			DEL_ticket.setInt(1, p_idTicket);
+			DEL_ticket.executeUpdate();
+			
 			con.commit();
 		} catch (SQLException e) {
 			logger.debug(e.getMessage());
@@ -311,6 +310,10 @@ public class EsqueletoCompraBilleteTren {
 			throw e;
 		} 
 		finally {
+			if (SEL_ticket != null) {
+				SEL_ticket.close();
+			}
+			
 			if (DEL_ticket != null) {
 				DEL_ticket.close();
 			}
