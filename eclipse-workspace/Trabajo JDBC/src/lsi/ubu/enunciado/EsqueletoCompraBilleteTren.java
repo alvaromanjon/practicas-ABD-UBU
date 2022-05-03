@@ -145,6 +145,8 @@ public class EsqueletoCompraBilleteTren {
 		} catch (SQLException e) {
 			if (e.getErrorCode()==CompraBilleteTrenException.NO_EXISTE_TICKET) {
 				System.out.println("Se da cuenta de que no existe el ticket OK");
+			} else {
+				System.out.println("Error inesperado MAL");
 			}
 		}	
 	}
@@ -229,7 +231,7 @@ public class EsqueletoCompraBilleteTren {
 			con.commit();
 
 		} catch(SQLException e) {
-			logger.error(e.getMessage());
+			logger.debug(e.getMessage());
 			con.rollback();
 			throw e;
 		}
@@ -304,7 +306,7 @@ public class EsqueletoCompraBilleteTren {
 
 			con.commit();
 		} catch (SQLException e) {
-			logger.error(e.getMessage());
+			logger.debug(e.getMessage());
 			con.rollback();
 			throw e;
 		} 

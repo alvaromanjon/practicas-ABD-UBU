@@ -6936,3 +6936,1401 @@ Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
 INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2022-05-03 20:41:50.407 [main] PoolDeConexiones - Activacion de Autocommit=false
 INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2022-05-03 20:41:50.407 [main] PoolDeConexiones - Activacion de Autocommit=false
 Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:08.888 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:09.046 [main] ExecuteScript - SQL*Plus: Release 11.2.0.2.0 Production on Mar May 3 21:59:08 2022
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:09.086 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:09.092 [main] ExecuteScript - Copyright (c) 1982, 2011, Oracle.  All rights reserved.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:09.165 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:09.180 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:09.192 [main] ExecuteScript - Connected to:
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:09.200 [main] ExecuteScript - Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:09.216 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:09.292 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:09.303 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:09.304 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:09.473 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:09.474 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:09.474 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:09.602 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:09.733 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:09.754 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:09.872 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:09.879 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:09.881 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:10.164 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:10.165 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:10.191 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:10.365 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:10.366 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:10.366 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:10.506 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:10.506 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:10.507 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:10.578 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:10.580 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:10.583 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:10.623 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:10.623 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:10.624 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:10.686 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:10.686 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:10.687 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:10.743 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:10.744 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:10.745 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:10.799 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:10.799 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:10.800 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:10.906 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:10.907 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:10.907 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.071 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.072 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.072 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.188 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.189 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.190 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.214 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.220 [main] ExecuteScript - Sequence dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.225 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.226 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.240 [main] ExecuteScript - Sequence created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.262 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.411 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.412 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.421 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.427 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.434 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.434 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.434 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.434 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.475 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.475 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.475 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.476 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.476 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.476 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.477 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.477 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.477 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.477 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.478 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.478 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.520 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.521 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.521 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.521 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.522 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.556 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.560 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.561 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.587 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.593 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.618 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.618 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.624 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.626 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.626 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.627 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.627 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.627 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.627 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.652 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.653 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.664 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.665 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.665 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.666 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.666 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.670 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.671 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.671 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.671 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.672 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.672 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.672 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.685 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.686 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.686 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.686 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.695 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.696 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.700 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.700 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.708 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.708 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.708 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.708 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.710 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.711 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.716 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.728 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.733 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.736 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.737 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.737 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.737 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.737 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.740 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.740 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.741 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.742 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.749 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.750 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.750 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.755 [main] ExecuteScript - Commit complete.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.755 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:11.768 [main] ExecuteScript - Disconnected from Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:17.946 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:18.053 [main] ExecuteScript - SQL*Plus: Release 11.2.0.2.0 Production on Mar May 3 21:59:17 2022
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:18.129 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:18.144 [main] ExecuteScript - Copyright (c) 1982, 2011, Oracle.  All rights reserved.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:18.551 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:19.040 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:19.042 [main] ExecuteScript - Connected to:
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:19.043 [main] ExecuteScript - Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:19.075 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:19.661 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:19.662 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:19.669 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:19.831 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:19.832 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:19.833 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:20.002 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:20.124 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:20.160 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:20.161 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:20.161 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:20.161 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:20.271 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:20.272 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:20.274 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:20.375 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:20.376 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:20.377 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:20.510 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:20.514 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:20.519 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:20.571 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:20.572 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:20.579 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:20.637 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:20.642 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:20.645 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:20.720 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:20.721 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:20.721 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:20.783 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:20.784 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:20.787 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:20.853 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:20.854 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:20.854 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:20.963 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:20.964 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:20.965 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.124 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.128 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.129 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.254 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.255 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.255 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.275 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.285 [main] ExecuteScript - Sequence dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.291 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.292 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.316 [main] ExecuteScript - Sequence created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.335 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.480 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.482 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.483 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.504 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.504 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.504 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.505 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.505 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.505 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.505 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.506 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.506 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.548 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.548 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.549 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.587 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.588 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.588 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.589 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.629 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.666 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.666 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.666 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.667 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.667 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.667 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.668 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.668 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.668 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.668 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.668 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.668 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.669 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.669 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.669 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.669 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.669 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.669 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.707 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.708 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.708 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.709 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.723 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.723 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.724 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.724 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.724 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.724 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.724 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.730 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.731 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.731 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.731 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.732 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.732 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.732 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.733 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.733 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.768 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.769 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.769 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.784 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.785 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.785 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.785 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.803 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.804 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.815 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.823 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.823 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.824 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.824 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.849 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.849 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.850 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.850 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.850 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.850 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.850 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.851 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.851 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.851 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.851 [main] ExecuteScript - Commit complete.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.851 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:21.871 [main] ExecuteScript - Disconnected from Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2022-05-03 21:59:33.595 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2022-05-03 21:59:33.596 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:34.797 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:34.844 [main] ExecuteScript - SQL*Plus: Release 11.2.0.2.0 Production on Mar May 3 21:59:34 2022
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:34.869 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:34.871 [main] ExecuteScript - Copyright (c) 1982, 2011, Oracle.  All rights reserved.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:35.045 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:35.166 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:35.167 [main] ExecuteScript - Connected to:
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:35.167 [main] ExecuteScript - Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:35.169 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:35.370 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:35.370 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:35.371 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:35.500 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:35.503 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:35.503 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:35.713 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:35.830 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:35.830 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:35.962 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:35.963 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:35.963 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:36.081 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:36.083 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:36.084 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:36.177 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:36.178 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:36.178 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:36.330 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:36.335 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:36.341 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:36.412 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:36.413 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:36.426 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:36.492 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:36.506 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:36.507 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:36.615 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:36.616 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:36.616 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:36.666 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:36.677 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:36.678 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:36.763 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:36.772 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:36.772 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:36.908 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:36.910 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:36.911 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:37.152 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:37.153 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:37.154 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:37.369 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:37.371 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:37.372 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:37.385 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:37.386 [main] ExecuteScript - Sequence dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:37.386 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:37.394 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:37.401 [main] ExecuteScript - Sequence created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:37.461 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:37.794 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:37.795 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:37.795 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:37.807 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:37.814 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:37.839 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:37.840 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:37.881 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:37.882 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:37.882 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:37.883 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:37.883 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:37.883 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:37.884 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:37.884 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:37.885 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:37.885 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:37.985 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:37.985 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:37.986 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:37.987 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:37.987 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:37.988 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:37.988 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:37.988 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:38.015 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:38.017 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:38.017 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:38.018 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:38.020 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:38.020 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:38.020 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:38.021 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:38.021 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:38.022 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:38.022 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:38.022 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:38.022 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:38.022 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:38.023 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:38.023 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:38.023 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:38.024 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:38.024 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:38.024 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:38.024 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:38.025 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:38.025 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:38.025 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:38.026 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:38.026 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:38.026 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:38.026 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:38.027 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:38.064 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:38.064 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:38.064 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:38.065 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:38.065 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:38.065 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:38.066 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:38.090 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:38.090 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:38.090 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:38.091 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:38.104 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:38.104 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:38.112 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:38.116 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:38.116 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:38.116 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:38.129 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:38.130 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:38.130 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:38.131 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:38.131 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:38.131 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:38.132 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:38.132 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:38.132 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:38.133 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:38.133 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:38.133 [main] ExecuteScript - Commit complete.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:38.134 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 21:59:38.134 [main] ExecuteScript - Disconnected from Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+ERROR: [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:45)]2022-05-03 21:59:38.652 [main] CompraBilleteTrenException - No existe ese viaje para esa fecha, hora, origen y destino.
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 21:59:38.669 [main] CompraBilleteTrenException - java.base/java.lang.Thread.getStackTrace(Thread.java:1596)
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 21:59:38.669 [main] CompraBilleteTrenException - lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:48)
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 21:59:38.670 [main] CompraBilleteTrenException - lsi.ubu.enunciado.EsqueletoCompraBilleteTren.comprarBillete(EsqueletoCompraBilleteTren.java:187)
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 21:59:38.670 [main] CompraBilleteTrenException - lsi.ubu.enunciado.EsqueletoCompraBilleteTren.pruebaCompraBilletes(EsqueletoCompraBilleteTren.java:81)
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 21:59:38.670 [main] CompraBilleteTrenException - lsi.ubu.enunciado.EsqueletoCompraBilleteTren.main(EsqueletoCompraBilleteTren.java:41)
+ERROR: [lsi.ubu.enunciado.EsqueletoCompraBilleteTren.comprarBillete(EsqueletoCompraBilleteTren.java:232)]2022-05-03 21:59:38.687 [main] EsqueletoCompraBilleteTren - No existe ese viaje para esa fecha, hora, origen y destino.
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2022-05-03 21:59:38.706 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2022-05-03 21:59:38.706 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+ERROR: [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:45)]2022-05-03 21:59:38.741 [main] CompraBilleteTrenException - No hay plazas suficientes.
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 21:59:38.749 [main] CompraBilleteTrenException - java.base/java.lang.Thread.getStackTrace(Thread.java:1596)
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 21:59:38.749 [main] CompraBilleteTrenException - lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:48)
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 21:59:38.749 [main] CompraBilleteTrenException - lsi.ubu.enunciado.EsqueletoCompraBilleteTren.comprarBillete(EsqueletoCompraBilleteTren.java:193)
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 21:59:38.750 [main] CompraBilleteTrenException - lsi.ubu.enunciado.EsqueletoCompraBilleteTren.pruebaCompraBilletes(EsqueletoCompraBilleteTren.java:97)
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 21:59:38.750 [main] CompraBilleteTrenException - lsi.ubu.enunciado.EsqueletoCompraBilleteTren.main(EsqueletoCompraBilleteTren.java:41)
+ERROR: [lsi.ubu.enunciado.EsqueletoCompraBilleteTren.comprarBillete(EsqueletoCompraBilleteTren.java:232)]2022-05-03 21:59:38.750 [main] EsqueletoCompraBilleteTren - No hay plazas suficientes.
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2022-05-03 21:59:38.752 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2022-05-03 21:59:38.752 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2022-05-03 21:59:38.944 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2022-05-03 21:59:38.945 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2022-05-03 21:59:39.109 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2022-05-03 21:59:39.110 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+ERROR: [lsi.ubu.enunciado.EsqueletoCompraBilleteTren.anularBillete(EsqueletoCompraBilleteTren.java:307)]2022-05-03 21:59:39.133 [main] EsqueletoCompraBilleteTren - ORA-00904: "ID_TICKET": invalid identifier
+
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2022-05-03 21:59:41.468 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2022-05-03 21:59:41.469 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+ERROR: [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:45)]2022-05-03 21:59:45.303 [main] CompraBilleteTrenException - No existe ese viaje para esa fecha, hora, origen y destino.
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 21:59:45.312 [main] CompraBilleteTrenException - java.base/java.lang.Thread.getStackTrace(Thread.java:1596)
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 21:59:45.312 [main] CompraBilleteTrenException - lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:48)
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 21:59:45.320 [main] CompraBilleteTrenException - lsi.ubu.enunciado.EsqueletoCompraBilleteTren.comprarBillete(EsqueletoCompraBilleteTren.java:187)
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 21:59:45.320 [main] CompraBilleteTrenException - lsi.ubu.enunciado.EsqueletoCompraBilleteTren.pruebaCompraBilletes(EsqueletoCompraBilleteTren.java:81)
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 21:59:45.320 [main] CompraBilleteTrenException - lsi.ubu.enunciado.EsqueletoCompraBilleteTren.main(EsqueletoCompraBilleteTren.java:41)
+ERROR: [lsi.ubu.enunciado.EsqueletoCompraBilleteTren.comprarBillete(EsqueletoCompraBilleteTren.java:232)]2022-05-03 21:59:45.329 [main] EsqueletoCompraBilleteTren - No existe ese viaje para esa fecha, hora, origen y destino.
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2022-05-03 21:59:45.352 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2022-05-03 21:59:45.352 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+ERROR: [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:45)]2022-05-03 21:59:45.376 [main] CompraBilleteTrenException - No hay plazas suficientes.
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 21:59:45.381 [main] CompraBilleteTrenException - java.base/java.lang.Thread.getStackTrace(Thread.java:1596)
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 21:59:45.383 [main] CompraBilleteTrenException - lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:48)
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 21:59:45.383 [main] CompraBilleteTrenException - lsi.ubu.enunciado.EsqueletoCompraBilleteTren.comprarBillete(EsqueletoCompraBilleteTren.java:193)
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 21:59:45.384 [main] CompraBilleteTrenException - lsi.ubu.enunciado.EsqueletoCompraBilleteTren.pruebaCompraBilletes(EsqueletoCompraBilleteTren.java:97)
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 21:59:45.384 [main] CompraBilleteTrenException - lsi.ubu.enunciado.EsqueletoCompraBilleteTren.main(EsqueletoCompraBilleteTren.java:41)
+ERROR: [lsi.ubu.enunciado.EsqueletoCompraBilleteTren.comprarBillete(EsqueletoCompraBilleteTren.java:232)]2022-05-03 21:59:45.394 [main] EsqueletoCompraBilleteTren - No hay plazas suficientes.
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2022-05-03 21:59:45.429 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2022-05-03 21:59:45.430 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2022-05-03 21:59:45.530 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2022-05-03 21:59:45.531 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2022-05-03 21:59:45.724 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2022-05-03 21:59:45.732 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+ERROR: [lsi.ubu.enunciado.EsqueletoCompraBilleteTren.anularBillete(EsqueletoCompraBilleteTren.java:307)]2022-05-03 21:59:45.781 [main] EsqueletoCompraBilleteTren - ORA-00904: "ID_TICKET": invalid identifier
+
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2022-05-03 21:59:49.725 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2022-05-03 21:59:49.735 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+ERROR: [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:45)]2022-05-03 21:59:51.718 [main] CompraBilleteTrenException - No existe ese viaje para esa fecha, hora, origen y destino.
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 21:59:51.732 [main] CompraBilleteTrenException - java.base/java.lang.Thread.getStackTrace(Thread.java:1596)
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 21:59:51.735 [main] CompraBilleteTrenException - lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:48)
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 21:59:51.735 [main] CompraBilleteTrenException - lsi.ubu.enunciado.EsqueletoCompraBilleteTren.comprarBillete(EsqueletoCompraBilleteTren.java:187)
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 21:59:51.735 [main] CompraBilleteTrenException - lsi.ubu.enunciado.EsqueletoCompraBilleteTren.pruebaCompraBilletes(EsqueletoCompraBilleteTren.java:81)
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 21:59:51.735 [main] CompraBilleteTrenException - lsi.ubu.enunciado.EsqueletoCompraBilleteTren.main(EsqueletoCompraBilleteTren.java:41)
+ERROR: [lsi.ubu.enunciado.EsqueletoCompraBilleteTren.comprarBillete(EsqueletoCompraBilleteTren.java:232)]2022-05-03 21:59:51.736 [main] EsqueletoCompraBilleteTren - No existe ese viaje para esa fecha, hora, origen y destino.
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2022-05-03 21:59:51.758 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2022-05-03 21:59:51.758 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+ERROR: [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:45)]2022-05-03 21:59:51.767 [main] CompraBilleteTrenException - No hay plazas suficientes.
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 21:59:51.767 [main] CompraBilleteTrenException - java.base/java.lang.Thread.getStackTrace(Thread.java:1596)
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 21:59:51.768 [main] CompraBilleteTrenException - lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:48)
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 21:59:51.774 [main] CompraBilleteTrenException - lsi.ubu.enunciado.EsqueletoCompraBilleteTren.comprarBillete(EsqueletoCompraBilleteTren.java:193)
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 21:59:51.774 [main] CompraBilleteTrenException - lsi.ubu.enunciado.EsqueletoCompraBilleteTren.pruebaCompraBilletes(EsqueletoCompraBilleteTren.java:97)
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 21:59:51.774 [main] CompraBilleteTrenException - lsi.ubu.enunciado.EsqueletoCompraBilleteTren.main(EsqueletoCompraBilleteTren.java:41)
+ERROR: [lsi.ubu.enunciado.EsqueletoCompraBilleteTren.comprarBillete(EsqueletoCompraBilleteTren.java:232)]2022-05-03 21:59:51.776 [main] EsqueletoCompraBilleteTren - No hay plazas suficientes.
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2022-05-03 21:59:51.784 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2022-05-03 21:59:51.784 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2022-05-03 21:59:51.824 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2022-05-03 21:59:51.824 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2022-05-03 21:59:51.908 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2022-05-03 21:59:51.910 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+ERROR: [lsi.ubu.enunciado.EsqueletoCompraBilleteTren.anularBillete(EsqueletoCompraBilleteTren.java:307)]2022-05-03 21:59:51.947 [main] EsqueletoCompraBilleteTren - ORA-00904: "ID_TICKET": invalid identifier
+
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:12.700 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:12.721 [main] ExecuteScript - SQL*Plus: Release 11.2.0.2.0 Production on Mar May 3 22:09:12 2022
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:12.729 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:12.730 [main] ExecuteScript - Copyright (c) 1982, 2011, Oracle.  All rights reserved.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:12.748 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:12.783 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:12.783 [main] ExecuteScript - Connected to:
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:12.784 [main] ExecuteScript - Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:12.786 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:12.874 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:12.875 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:12.875 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:12.965 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:12.966 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:12.967 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:13.092 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:13.140 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:13.141 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:13.201 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:13.202 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:13.205 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:13.270 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:13.270 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:13.270 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:13.332 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:13.332 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:13.334 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:13.405 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:13.406 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:13.406 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:13.456 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:13.456 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:13.460 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:13.496 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:13.496 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:13.498 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:13.533 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:13.533 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:13.534 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:13.566 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:13.567 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:13.567 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:13.610 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:13.611 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:13.611 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:13.675 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:13.675 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:13.675 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:13.758 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:13.759 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:13.759 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:13.857 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:13.858 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:13.858 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:13.876 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:13.882 [main] ExecuteScript - Sequence dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:13.889 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:13.889 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:13.890 [main] ExecuteScript - Sequence created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:13.891 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.037 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.037 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.038 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.048 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.049 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.050 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.050 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.050 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.050 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.050 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.050 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.051 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.051 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.051 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.051 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.081 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.082 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.082 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.083 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.083 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.083 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.083 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.084 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.084 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.084 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.085 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.107 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.108 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.115 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.115 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.115 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.115 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.121 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.141 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.141 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.141 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.141 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.142 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.142 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.142 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.142 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.142 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.142 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.143 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.143 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.143 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.150 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.150 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.150 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.150 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.150 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.150 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.150 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.151 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.151 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.151 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.151 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.151 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.151 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.155 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.156 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.159 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.159 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.159 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.159 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.161 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.161 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.162 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.171 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.172 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.172 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.172 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.172 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.172 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.172 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.174 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.174 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.174 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.175 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.175 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.175 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.175 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.175 [main] ExecuteScript - Commit complete.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.175 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:09:14.177 [main] ExecuteScript - Disconnected from Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2022-05-03 22:09:17.052 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2022-05-03 22:09:17.053 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+ERROR: [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:45)]2022-05-03 22:09:18.077 [main] CompraBilleteTrenException - No existe ese viaje para esa fecha, hora, origen y destino.
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 22:09:18.088 [main] CompraBilleteTrenException - java.base/java.lang.Thread.getStackTrace(Thread.java:1596)
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 22:09:18.088 [main] CompraBilleteTrenException - lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:48)
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 22:09:18.088 [main] CompraBilleteTrenException - lsi.ubu.enunciado.EsqueletoCompraBilleteTren.comprarBillete(EsqueletoCompraBilleteTren.java:187)
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 22:09:18.088 [main] CompraBilleteTrenException - lsi.ubu.enunciado.EsqueletoCompraBilleteTren.pruebaCompraBilletes(EsqueletoCompraBilleteTren.java:81)
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 22:09:18.089 [main] CompraBilleteTrenException - lsi.ubu.enunciado.EsqueletoCompraBilleteTren.main(EsqueletoCompraBilleteTren.java:41)
+ERROR: [lsi.ubu.enunciado.EsqueletoCompraBilleteTren.comprarBillete(EsqueletoCompraBilleteTren.java:232)]2022-05-03 22:09:18.094 [main] EsqueletoCompraBilleteTren - No existe ese viaje para esa fecha, hora, origen y destino.
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2022-05-03 22:09:18.106 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2022-05-03 22:09:18.107 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+ERROR: [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:45)]2022-05-03 22:09:18.110 [main] CompraBilleteTrenException - No hay plazas suficientes.
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 22:09:18.112 [main] CompraBilleteTrenException - java.base/java.lang.Thread.getStackTrace(Thread.java:1596)
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 22:09:18.112 [main] CompraBilleteTrenException - lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:48)
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 22:09:18.112 [main] CompraBilleteTrenException - lsi.ubu.enunciado.EsqueletoCompraBilleteTren.comprarBillete(EsqueletoCompraBilleteTren.java:193)
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 22:09:18.113 [main] CompraBilleteTrenException - lsi.ubu.enunciado.EsqueletoCompraBilleteTren.pruebaCompraBilletes(EsqueletoCompraBilleteTren.java:97)
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 22:09:18.113 [main] CompraBilleteTrenException - lsi.ubu.enunciado.EsqueletoCompraBilleteTren.main(EsqueletoCompraBilleteTren.java:41)
+ERROR: [lsi.ubu.enunciado.EsqueletoCompraBilleteTren.comprarBillete(EsqueletoCompraBilleteTren.java:232)]2022-05-03 22:09:18.113 [main] EsqueletoCompraBilleteTren - No hay plazas suficientes.
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2022-05-03 22:09:18.122 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2022-05-03 22:09:18.123 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2022-05-03 22:09:18.172 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2022-05-03 22:09:18.173 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2022-05-03 22:09:18.219 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2022-05-03 22:09:18.221 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+ERROR: [lsi.ubu.enunciado.EsqueletoCompraBilleteTren.anularBillete(EsqueletoCompraBilleteTren.java:307)]2022-05-03 22:09:18.247 [main] EsqueletoCompraBilleteTren - ORA-00904: "ID_TICKET": invalid identifier
+
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:12.402 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:12.444 [main] ExecuteScript - SQL*Plus: Release 11.2.0.2.0 Production on Mar May 3 22:44:12 2022
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:12.448 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:12.462 [main] ExecuteScript - Copyright (c) 1982, 2011, Oracle.  All rights reserved.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:12.506 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:12.548 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:12.549 [main] ExecuteScript - Connected to:
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:12.549 [main] ExecuteScript - Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:12.555 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:12.659 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:12.663 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:12.668 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:12.756 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:12.757 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:12.757 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:12.883 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:12.921 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:12.922 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:13.021 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:13.022 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:13.023 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:13.130 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:13.131 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:13.144 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:13.240 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:13.240 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:13.241 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:13.352 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:13.353 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:13.353 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:13.413 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:13.414 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:13.414 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:13.480 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:13.481 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:13.484 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:13.533 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:13.534 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:13.534 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:13.591 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:13.595 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:13.596 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:13.655 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:13.655 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:13.665 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:13.817 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:13.818 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:13.819 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:13.974 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:13.974 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:13.974 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.095 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.096 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.096 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.133 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.134 [main] ExecuteScript - Sequence dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.134 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.150 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.151 [main] ExecuteScript - Sequence created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.151 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.349 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.350 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.350 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.361 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.368 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.369 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.369 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.369 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.370 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.370 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.370 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.370 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.371 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.428 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.429 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.436 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.436 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.436 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.437 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.437 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.458 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.458 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.458 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.458 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.492 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.493 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.496 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.497 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.497 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.497 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.498 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.498 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.498 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.498 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.499 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.545 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.546 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.546 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.546 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.547 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.568 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.569 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.576 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.576 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.577 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.577 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.587 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.587 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.588 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.588 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.588 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.588 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.588 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.588 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.595 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.596 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.597 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.597 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.598 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.598 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.598 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.614 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.615 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.616 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.616 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.617 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.622 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.623 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.633 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.633 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.633 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.634 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.634 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.634 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.634 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.634 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.634 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.635 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.642 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.643 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.643 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.643 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.643 [main] ExecuteScript - Commit complete.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.648 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:44:14.652 [main] ExecuteScript - Disconnected from Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2022-05-03 22:44:22.668 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2022-05-03 22:44:22.670 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+ERROR: [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:45)]2022-05-03 22:44:23.865 [main] CompraBilleteTrenException - No existe ese viaje para esa fecha, hora, origen y destino.
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 22:44:23.873 [main] CompraBilleteTrenException - java.base/java.lang.Thread.getStackTrace(Thread.java:1596)
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 22:44:23.877 [main] CompraBilleteTrenException - lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:48)
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 22:44:23.884 [main] CompraBilleteTrenException - lsi.ubu.enunciado.EsqueletoCompraBilleteTren.comprarBillete(EsqueletoCompraBilleteTren.java:187)
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 22:44:23.884 [main] CompraBilleteTrenException - lsi.ubu.enunciado.EsqueletoCompraBilleteTren.pruebaCompraBilletes(EsqueletoCompraBilleteTren.java:81)
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 22:44:23.885 [main] CompraBilleteTrenException - lsi.ubu.enunciado.EsqueletoCompraBilleteTren.main(EsqueletoCompraBilleteTren.java:41)
+ERROR: [lsi.ubu.enunciado.EsqueletoCompraBilleteTren.comprarBillete(EsqueletoCompraBilleteTren.java:232)]2022-05-03 22:44:23.885 [main] EsqueletoCompraBilleteTren - No existe ese viaje para esa fecha, hora, origen y destino.
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2022-05-03 22:44:23.889 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2022-05-03 22:44:23.889 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+ERROR: [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:45)]2022-05-03 22:44:23.901 [main] CompraBilleteTrenException - No hay plazas suficientes.
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 22:44:23.924 [main] CompraBilleteTrenException - java.base/java.lang.Thread.getStackTrace(Thread.java:1596)
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 22:44:23.924 [main] CompraBilleteTrenException - lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:48)
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 22:44:23.925 [main] CompraBilleteTrenException - lsi.ubu.enunciado.EsqueletoCompraBilleteTren.comprarBillete(EsqueletoCompraBilleteTren.java:193)
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 22:44:23.925 [main] CompraBilleteTrenException - lsi.ubu.enunciado.EsqueletoCompraBilleteTren.pruebaCompraBilletes(EsqueletoCompraBilleteTren.java:97)
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 22:44:23.925 [main] CompraBilleteTrenException - lsi.ubu.enunciado.EsqueletoCompraBilleteTren.main(EsqueletoCompraBilleteTren.java:41)
+ERROR: [lsi.ubu.enunciado.EsqueletoCompraBilleteTren.comprarBillete(EsqueletoCompraBilleteTren.java:232)]2022-05-03 22:44:23.926 [main] EsqueletoCompraBilleteTren - No hay plazas suficientes.
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2022-05-03 22:44:23.941 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2022-05-03 22:44:23.945 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2022-05-03 22:44:24.034 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2022-05-03 22:44:24.036 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:41.743 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:41.812 [main] ExecuteScript - SQL*Plus: Release 11.2.0.2.0 Production on Mar May 3 22:45:41 2022
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:41.821 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:41.823 [main] ExecuteScript - Copyright (c) 1982, 2011, Oracle.  All rights reserved.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:41.857 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:41.890 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:41.891 [main] ExecuteScript - Connected to:
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:41.891 [main] ExecuteScript - Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:41.891 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:42.020 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:42.021 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:42.021 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:42.105 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:42.105 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:42.106 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:42.216 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:42.237 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:42.237 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:42.371 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:42.371 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:42.372 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:42.472 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:42.473 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:42.473 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:42.550 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:42.551 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:42.551 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:42.657 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:42.657 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:42.658 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:42.718 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:42.719 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:42.732 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:42.774 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:42.775 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:42.775 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:42.858 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:42.872 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:42.872 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:42.915 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:42.916 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:42.916 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:42.988 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:42.989 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:42.989 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.098 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.098 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.099 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.228 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.228 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.228 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.322 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.322 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.323 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.348 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.348 [main] ExecuteScript - Sequence dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.349 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.361 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.404 [main] ExecuteScript - Sequence created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.405 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.572 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.580 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.589 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.590 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.619 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.619 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.620 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.641 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.651 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.662 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.663 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.663 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.687 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.703 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.703 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.706 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.707 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.728 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.745 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.745 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.745 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.745 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.746 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.746 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.746 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.780 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.781 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.782 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.782 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.782 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.783 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.783 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.784 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.792 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.792 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.792 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.792 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.792 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.793 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.793 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.793 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.793 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.793 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.794 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.794 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.794 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.794 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.794 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.794 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.795 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.795 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.809 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.810 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.818 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.824 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.825 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.825 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.826 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.826 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.827 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.827 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.836 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.836 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.836 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.836 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.839 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.840 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.849 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.853 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.853 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.853 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.853 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.854 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.854 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.854 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.854 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.854 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.854 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.854 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.854 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.855 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.855 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.855 [main] ExecuteScript - Commit complete.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.855 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:45:43.855 [main] ExecuteScript - Disconnected from Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2022-05-03 22:45:52.002 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2022-05-03 22:45:52.003 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+ERROR: [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:45)]2022-05-03 22:45:55.054 [main] CompraBilleteTrenException - No existe ese viaje para esa fecha, hora, origen y destino.
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 22:45:55.128 [main] CompraBilleteTrenException - java.base/java.lang.Thread.getStackTrace(Thread.java:1596)
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 22:45:55.129 [main] CompraBilleteTrenException - lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:48)
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 22:45:55.129 [main] CompraBilleteTrenException - lsi.ubu.enunciado.EsqueletoCompraBilleteTren.comprarBillete(EsqueletoCompraBilleteTren.java:187)
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 22:45:55.129 [main] CompraBilleteTrenException - lsi.ubu.enunciado.EsqueletoCompraBilleteTren.pruebaCompraBilletes(EsqueletoCompraBilleteTren.java:81)
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 22:45:55.129 [main] CompraBilleteTrenException - lsi.ubu.enunciado.EsqueletoCompraBilleteTren.main(EsqueletoCompraBilleteTren.java:41)
+DEBUG: [lsi.ubu.enunciado.EsqueletoCompraBilleteTren.comprarBillete(EsqueletoCompraBilleteTren.java:232)]2022-05-03 22:45:55.148 [main] EsqueletoCompraBilleteTren - No existe ese viaje para esa fecha, hora, origen y destino.
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2022-05-03 22:45:55.240 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2022-05-03 22:45:55.241 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+ERROR: [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:45)]2022-05-03 22:45:55.269 [main] CompraBilleteTrenException - No hay plazas suficientes.
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 22:45:55.277 [main] CompraBilleteTrenException - java.base/java.lang.Thread.getStackTrace(Thread.java:1596)
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 22:45:55.278 [main] CompraBilleteTrenException - lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:48)
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 22:45:55.278 [main] CompraBilleteTrenException - lsi.ubu.enunciado.EsqueletoCompraBilleteTren.comprarBillete(EsqueletoCompraBilleteTren.java:193)
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 22:45:55.278 [main] CompraBilleteTrenException - lsi.ubu.enunciado.EsqueletoCompraBilleteTren.pruebaCompraBilletes(EsqueletoCompraBilleteTren.java:97)
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 22:45:55.278 [main] CompraBilleteTrenException - lsi.ubu.enunciado.EsqueletoCompraBilleteTren.main(EsqueletoCompraBilleteTren.java:41)
+DEBUG: [lsi.ubu.enunciado.EsqueletoCompraBilleteTren.comprarBillete(EsqueletoCompraBilleteTren.java:232)]2022-05-03 22:45:55.279 [main] EsqueletoCompraBilleteTren - No hay plazas suficientes.
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2022-05-03 22:45:55.304 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2022-05-03 22:45:55.304 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2022-05-03 22:45:55.394 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2022-05-03 22:45:55.394 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:57.894 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:57.976 [main] ExecuteScript - SQL*Plus: Release 11.2.0.2.0 Production on Mar May 3 22:46:57 2022
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:57.992 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:57.994 [main] ExecuteScript - Copyright (c) 1982, 2011, Oracle.  All rights reserved.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:58.028 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:58.043 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:58.043 [main] ExecuteScript - Connected to:
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:58.044 [main] ExecuteScript - Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:58.076 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:58.103 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:58.104 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:58.104 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:58.191 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:58.192 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:58.192 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:58.308 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:58.355 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:58.356 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:58.463 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:58.463 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:58.463 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:58.555 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:58.556 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:58.557 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:58.640 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:58.641 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:58.643 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:58.762 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:58.764 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:58.764 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:58.813 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:58.813 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:58.814 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:58.852 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:58.853 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:58.854 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:58.942 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:58.957 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:58.957 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:58.988 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:58.989 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:58.994 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.055 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.056 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.056 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.151 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.152 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.153 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.314 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.317 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.318 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.428 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.428 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.429 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.453 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.462 [main] ExecuteScript - Sequence dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.468 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.469 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.469 [main] ExecuteScript - Sequence created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.469 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.652 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.653 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.653 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.661 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.679 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.680 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.680 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.680 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.680 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.681 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.681 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.681 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.715 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.716 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.753 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.758 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.758 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.758 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.758 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.758 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.759 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.781 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.782 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.782 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.805 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.808 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.848 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.849 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.849 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.849 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.849 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.849 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.853 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.857 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.857 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.857 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.858 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.868 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.868 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.869 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.869 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.872 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.872 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.872 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.872 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.873 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.873 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.881 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.881 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.888 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.888 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.888 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.889 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.889 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.889 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.889 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.890 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.890 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.890 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.890 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.891 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.896 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.897 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.912 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.913 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.914 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.914 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.916 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.941 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.942 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.942 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.942 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.942 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.943 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.943 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.944 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.945 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.945 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.945 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.945 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.946 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.946 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.946 [main] ExecuteScript - Commit complete.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.946 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:46:59.946 [main] ExecuteScript - Disconnected from Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2022-05-03 22:47:10.078 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2022-05-03 22:47:10.080 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+ERROR: [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:45)]2022-05-03 22:47:11.940 [main] CompraBilleteTrenException - No existe ese viaje para esa fecha, hora, origen y destino.
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 22:47:11.953 [main] CompraBilleteTrenException - java.base/java.lang.Thread.getStackTrace(Thread.java:1596)
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 22:47:11.953 [main] CompraBilleteTrenException - lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:48)
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 22:47:11.954 [main] CompraBilleteTrenException - lsi.ubu.enunciado.EsqueletoCompraBilleteTren.comprarBillete(EsqueletoCompraBilleteTren.java:187)
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 22:47:11.954 [main] CompraBilleteTrenException - lsi.ubu.enunciado.EsqueletoCompraBilleteTren.pruebaCompraBilletes(EsqueletoCompraBilleteTren.java:81)
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 22:47:11.955 [main] CompraBilleteTrenException - lsi.ubu.enunciado.EsqueletoCompraBilleteTren.main(EsqueletoCompraBilleteTren.java:41)
+DEBUG: [lsi.ubu.enunciado.EsqueletoCompraBilleteTren.comprarBillete(EsqueletoCompraBilleteTren.java:232)]2022-05-03 22:47:11.956 [main] EsqueletoCompraBilleteTren - No existe ese viaje para esa fecha, hora, origen y destino.
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2022-05-03 22:47:11.965 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2022-05-03 22:47:11.966 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+ERROR: [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:45)]2022-05-03 22:47:11.978 [main] CompraBilleteTrenException - No hay plazas suficientes.
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 22:47:11.982 [main] CompraBilleteTrenException - java.base/java.lang.Thread.getStackTrace(Thread.java:1596)
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 22:47:11.983 [main] CompraBilleteTrenException - lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:48)
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 22:47:11.983 [main] CompraBilleteTrenException - lsi.ubu.enunciado.EsqueletoCompraBilleteTren.comprarBillete(EsqueletoCompraBilleteTren.java:193)
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 22:47:11.983 [main] CompraBilleteTrenException - lsi.ubu.enunciado.EsqueletoCompraBilleteTren.pruebaCompraBilletes(EsqueletoCompraBilleteTren.java:97)
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 22:47:11.988 [main] CompraBilleteTrenException - lsi.ubu.enunciado.EsqueletoCompraBilleteTren.main(EsqueletoCompraBilleteTren.java:41)
+DEBUG: [lsi.ubu.enunciado.EsqueletoCompraBilleteTren.comprarBillete(EsqueletoCompraBilleteTren.java:232)]2022-05-03 22:47:11.988 [main] EsqueletoCompraBilleteTren - No hay plazas suficientes.
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2022-05-03 22:47:11.991 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2022-05-03 22:47:11.992 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2022-05-03 22:47:12.072 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2022-05-03 22:47:12.073 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2022-05-03 22:47:12.145 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2022-05-03 22:47:12.145 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+DEBUG: [lsi.ubu.enunciado.EsqueletoCompraBilleteTren.anularBillete(EsqueletoCompraBilleteTren.java:307)]2022-05-03 22:47:12.161 [main] EsqueletoCompraBilleteTren - ORA-00904: "ID_TICKET": invalid identifier
+
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.116 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.118 [main] ExecuteScript - SQL*Plus: Release 11.2.0.2.0 Production on Mar May 3 22:50:47 2022
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.118 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.125 [main] ExecuteScript - Copyright (c) 1982, 2011, Oracle.  All rights reserved.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.137 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.220 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.220 [main] ExecuteScript - Connected to:
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.221 [main] ExecuteScript - Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.221 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.269 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.269 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.270 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.300 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.302 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.302 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.346 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.351 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.353 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.387 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.388 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.388 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.418 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.418 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.418 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.436 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.437 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.437 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.463 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.464 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.464 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.480 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.480 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.481 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.491 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.492 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.492 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.510 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.511 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.512 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.527 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.527 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.527 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.544 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.544 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.545 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.567 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.567 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.567 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.618 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.618 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.618 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.685 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.685 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.685 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.702 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.702 [main] ExecuteScript - Sequence dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.702 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.710 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.711 [main] ExecuteScript - Sequence created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.711 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.816 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.816 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.816 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.822 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.823 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.823 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.826 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.826 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.826 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.827 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.827 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.827 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.829 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.830 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.830 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.831 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.832 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.832 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.832 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.833 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.833 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.833 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.834 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.834 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.836 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.836 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.837 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.837 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.838 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.838 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.838 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.838 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.838 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.840 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.840 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.840 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.841 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.841 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.841 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.844 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.844 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.844 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.848 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.848 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.849 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.849 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.849 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.849 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.850 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.851 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.851 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.853 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.854 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.854 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.854 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.855 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.855 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.855 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.855 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.855 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.858 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.859 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.859 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.861 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.862 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.862 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.863 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.864 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.866 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.868 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.868 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.868 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.869 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.871 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.871 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.871 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.871 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.871 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.873 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.873 [main] ExecuteScript - 1 row created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.873 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.875 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.875 [main] ExecuteScript - Commit complete.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.875 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2022-05-03 22:50:47.880 [main] ExecuteScript - Disconnected from Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2022-05-03 22:50:49.132 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2022-05-03 22:50:49.134 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+ERROR: [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:45)]2022-05-03 22:50:49.664 [main] CompraBilleteTrenException - No existe ese viaje para esa fecha, hora, origen y destino.
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 22:50:49.676 [main] CompraBilleteTrenException - java.base/java.lang.Thread.getStackTrace(Thread.java:1596)
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 22:50:49.676 [main] CompraBilleteTrenException - lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:48)
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 22:50:49.676 [main] CompraBilleteTrenException - lsi.ubu.enunciado.EsqueletoCompraBilleteTren.comprarBillete(EsqueletoCompraBilleteTren.java:189)
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 22:50:49.676 [main] CompraBilleteTrenException - lsi.ubu.enunciado.EsqueletoCompraBilleteTren.pruebaCompraBilletes(EsqueletoCompraBilleteTren.java:81)
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 22:50:49.676 [main] CompraBilleteTrenException - lsi.ubu.enunciado.EsqueletoCompraBilleteTren.main(EsqueletoCompraBilleteTren.java:41)
+DEBUG: [lsi.ubu.enunciado.EsqueletoCompraBilleteTren.comprarBillete(EsqueletoCompraBilleteTren.java:234)]2022-05-03 22:50:49.676 [main] EsqueletoCompraBilleteTren - No existe ese viaje para esa fecha, hora, origen y destino.
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2022-05-03 22:50:49.678 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2022-05-03 22:50:49.678 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+ERROR: [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:45)]2022-05-03 22:50:49.679 [main] CompraBilleteTrenException - No hay plazas suficientes.
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 22:50:49.680 [main] CompraBilleteTrenException - java.base/java.lang.Thread.getStackTrace(Thread.java:1596)
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 22:50:49.680 [main] CompraBilleteTrenException - lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:48)
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 22:50:49.680 [main] CompraBilleteTrenException - lsi.ubu.enunciado.EsqueletoCompraBilleteTren.comprarBillete(EsqueletoCompraBilleteTren.java:195)
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 22:50:49.680 [main] CompraBilleteTrenException - lsi.ubu.enunciado.EsqueletoCompraBilleteTren.pruebaCompraBilletes(EsqueletoCompraBilleteTren.java:97)
+INFO : [lsi.ubu.enunciado.CompraBilleteTrenException.<init>(CompraBilleteTrenException.java:49)]2022-05-03 22:50:49.680 [main] CompraBilleteTrenException - lsi.ubu.enunciado.EsqueletoCompraBilleteTren.main(EsqueletoCompraBilleteTren.java:41)
+DEBUG: [lsi.ubu.enunciado.EsqueletoCompraBilleteTren.comprarBillete(EsqueletoCompraBilleteTren.java:234)]2022-05-03 22:50:49.680 [main] EsqueletoCompraBilleteTren - No hay plazas suficientes.
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2022-05-03 22:50:49.681 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2022-05-03 22:50:49.681 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2022-05-03 22:50:49.712 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2022-05-03 22:50:49.712 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2022-05-03 22:50:49.728 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2022-05-03 22:50:49.728 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+DEBUG: [lsi.ubu.enunciado.EsqueletoCompraBilleteTren.anularBillete(EsqueletoCompraBilleteTren.java:309)]2022-05-03 22:50:49.734 [main] EsqueletoCompraBilleteTren - ORA-00904: "ID_TICKET": invalid identifier
+
