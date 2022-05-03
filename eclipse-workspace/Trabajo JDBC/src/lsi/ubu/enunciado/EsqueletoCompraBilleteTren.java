@@ -158,26 +158,37 @@ public class EsqueletoCompraBilleteTren {
 
     	try {
     		con = pool.getConnection();
-    		float precio;
     		
     		SEL_viajes = con.prepareStatement("select * from viajes inner join recorridos on viajes.idRecorrido = recorridos.idRecorrido "
-    				+ "where (viajes.fecha = ? and recorridos.estacionOrigen = ? and recorridos.estacionDestino = ? and recorridos.horaSalida-trunc(recorridos.horaSalida) = ?-trunc(?))");
-    		SEL_viajes.setDate(3, v_fecha);
-    		SEL_viajes.setString(8, p_origen);
-    		SEL_viajes.setString(9, p_destino);
-    		SEL_viajes.setTimestamp(10, v_hora);
-    		SEL_viajes.setTimestamp(11, v_hora);
+    				+ "where (fecha = ? and estacionOrigen = ? and estacionDestino = ? and horaSalida-trunc(horaSalida) = ?-trunc(?))");
+    		
+    		SEL_viajes.setDate(1, v_fecha);
+    		SEL_viajes.setString(2, p_origen);
+    		SEL_viajes.setString(3, p_destino);
+    		SEL_viajes.setTimestamp(4, v_hora);
+    		SEL_viajes.setTimestamp(5, v_hora);
     		
     		rs = SEL_viajes.executeQuery();
     		
     		if (!rs.next()) {
     			throw new CompraBilleteTrenException(2);
-    		} else {
-    			precio = rs.getFloat("recorridos.precio");
     		}
+   
+    		BigDecimal precio = rs.getBigDecimal("precio");
+    		con.commit();
     		
     	} catch(SQLException e) {
-    		
+    		logger.debug(e.getMessage());
+    		con.rollback();
+    		throw e;
+    	}
+    	finally {
+    		if (SEL_viajes != null) {
+        		SEL_viajes.close();
+        	}
+        	if (con != null) {
+        		con.close();
+        	}
     	}
 		//A completar por el alumno
 		
