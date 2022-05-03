@@ -20,6 +20,7 @@ public class CompraBilleteTrenException extends SQLException {
 	
 	public static final int NO_PLAZAS = 1;
 	public static final int NO_EXISTE_VIAJE = 2;
+	public static final int NO_EXISTE_TICKET = 3;
 		
 	private int codigo; // = -1;
 	private String mensaje;
@@ -35,6 +36,9 @@ public class CompraBilleteTrenException extends SQLException {
 				break;
 			case 2:
 				this.mensaje = "No existe ese viaje para esa fecha, hora, origen y destino.";
+				break;
+			case 3:
+				this.mensaje = "No existe el ticket solicitado para su anulación.";
 				break;
 		}
 		

@@ -15,6 +15,8 @@ import org.slf4j.LoggerFactory;
 
 import lsi.ubu.util.ExecuteScript;
 import lsi.ubu.util.PoolDeConexiones;
+import lsi.ubu.util.exceptions.SGBDError;
+import lsi.ubu.util.exceptions.oracle.OracleSGBDErrorUtil;
 
 /**
  * CompraBilleteTren:
@@ -211,7 +213,7 @@ public class EsqueletoCompraBilleteTren {
     		con.commit();
     		
     	} catch(SQLException e) {
-    		logger.debug(e.getMessage());
+    		logger.error(e.getMessage());
     		con.rollback();
     		throw e;
     	}
@@ -232,8 +234,6 @@ public class EsqueletoCompraBilleteTren {
         		con.close();
         	}
     	}
-		//A completar por el alumno
-		
     	/*Como comparar en Oracle campos TIME si no tiene TIMEs
     	* trunc(timestamp) te devuelve la fecha pero con la hora 00:00
     	* Si a un timestamp le restas trunc(timestamp) te queda el tiempo transcurrido desde las 00:00
@@ -257,5 +257,34 @@ public class EsqueletoCompraBilleteTren {
           
     	
     	*/
+	}
+	
+	public static void anularBillete(int p_idTicket) throws SQLException {
+		PoolDeConexiones pool = PoolDeConexiones.getInstance();
+		Connection con = null;
+    	PreparedStatement DEL_ticket = null;
+    	
+    	try {
+    		con = pool.getConnection();
+    		
+    		DEL_ticket = con.prepareStatement("delete from tickets where id_ticket = ?");
+    		DEL_ticket.setInt(1, p_idTicket);
+    		
+    		try {
+    			DEL_ticket.executeUpdate();
+    		} catch (SQLException e) {
+    			if (new OracleSGBDErrorUtil().checkExceptionToCode(e,SGBDError.PK_VIOLATED)) {
+    				throw new CompraBilleteTrenException(3);
+    			} else {
+    				throw e;
+    			}
+    		}
+    		
+    		con.commit();
+    	} catch (SQLException e) {
+    		logger.error(e.getMessage());
+    		con.rollback();
+    		throw e;
+    	}
 	}
 }
