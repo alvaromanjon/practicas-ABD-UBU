@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
     <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-        <listEntry value="/Trabajo JDBC/src/lsi/ubu/enunciado/EsqueletoCompraBilleteTren.java"/>
+        <listEntry value="/Trabajo 3. JDBC/src/lsi/ubu/enunciado/EsqueletoCompraBilleteTren.java"/>
     </listAttribute>
     <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
         <listEntry value="1"/>
@@ -9,5 +9,5 @@
     <booleanAttribute key="org.eclipse.jdt.launching.ATTR_EXCLUDE_TEST_CODE" value="true"/>
     <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="lsi.ubu.enunciado.EsqueletoCompraBilleteTren"/>
     <stringAttribute key="org.eclipse.jdt.launching.MODULE_NAME" value=""/>
-    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Trabajo JDBC"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Trabajo 3. JDBC"/>
 </launchConfiguration>
