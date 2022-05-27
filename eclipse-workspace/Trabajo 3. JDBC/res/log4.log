@@ -8334,3 +8334,4 @@ INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2
 Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
 DEBUG: [lsi.ubu.enunciado.EsqueletoCompraBilleteTren.anularBillete(EsqueletoCompraBilleteTren.java:309)]2022-05-03 22:50:49.734 [main] EsqueletoCompraBilleteTren - ORA-00904: "ID_TICKET": invalid identifier
 
+DEBUG: [lsi.ubu.enunciado.EsqueletoCompraBilleteTren.comprarBillete(EsqueletoCompraBilleteTren.java:232)]2022-05-27 19:31:17.516 [main] EsqueletoCompraBilleteTren - No se ha podido iniciar Universal Connection Pool: oracle.ucp.UniversalConnectionPoolException: No se puede obtener la conexión del origen de datos: java.sql.SQLRecoverableException: Error de E/S: The Network Adapter could not establish the connection
