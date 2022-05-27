@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1"
+	xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="Multas">
+		<!-- Hibernate provider. -->
+		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+		
+		<!-- Eclipse Link provider (other provider) -->
+		<!-- <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider> -->
+		
+		<!-- COMPLETAR LISTA DE CLASES POR LOS ALUMNOS -->		
+		
+
+		<properties>
+			 
+			<property name="hibernate.dialect" value="org.hibernate.dialect.Oracle10gDialect" />
+			<property name="hibernate.connection.driver_class" value="oracle.jdbc.driver.OracleDriver" />
+			<property name="hibernate.connection.url" value="jdbc:oracle:thin:@localhost:1521:XE" />
+			<property name="hibernate.default_schema" value="HR" />
+			<property name="hibernate.connection.username" value="HR" />
+			<property name="hibernate.connection.password" value="hr" />
+			<property name="hibernate.connection.autocommit" value="false" />
+			<property name="hibernate.show_sql" value="false" />
+			<property name="hibernate.format_sql" value="false" />
+			<property name="hibernate.generate_statistics" value="false" />
+			<property name="hibernate.use_sql_comments" value="true" />
+			
+
+			<!-- Solution 1: internal Hibernate pool connection not for production -->
+			<property name="hibernate.connection.pool_size" value="5" />
+			
+				
+			<!-- Configuration with EclipseLink, other persistence provider -->
+			<!-- 
+			<property name="javax.persistence.jdbc.url"
+				value="jdbc:oracle:thin:@localhost:1521:XE" />
+			<property name="javax.persistence.jdbc.user" value="HR" />
+			<property name="javax.persistence.jdbc.password" value="hr" />
+			<property name="javax.persistence.jdbc.driver"
+				value="oracle.jdbc.OracleDriver" />				
+			<property name="eclipselink.logging.level" value="FINE" />
+			<property name="eclipselink.logging.parameters" value="true" />
+			<property name="eclipselink.logging.level.cache"
+				value="FINEST" /> 
+			<property name="eclipselink.allow-zero-id" value="true"/>
+			<property name="eclipselink.id-validation" value="NULL"/> 
+			-->
+		</properties>
+	</persistence-unit>
+	
+</persistence>
