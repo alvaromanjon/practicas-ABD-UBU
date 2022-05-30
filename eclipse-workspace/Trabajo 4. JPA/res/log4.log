@@ -116,3 +116,261 @@
 [INFO ] 2022-05-30 17:40:36.180 [main] ExecuteScript - Commit complete.
 [INFO ] 2022-05-30 17:40:36.180 [main] ExecuteScript - 
 [INFO ] 2022-05-30 17:40:36.180 [main] ExecuteScript - Disconnected from Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+[INFO ] 2022-05-30 20:28:44.084 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.089 [main] ExecuteScript - SQL*Plus: Release 11.2.0.2.0 Production on Lun May 30 20:28:44 2022
+[INFO ] 2022-05-30 20:28:44.090 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.090 [main] ExecuteScript - Copyright (c) 1982, 2014, Oracle.  All rights reserved.
+[INFO ] 2022-05-30 20:28:44.091 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.140 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.140 [main] ExecuteScript - Connected to:
+[INFO ] 2022-05-30 20:28:44.141 [main] ExecuteScript - Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+[INFO ] 2022-05-30 20:28:44.141 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.162 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.163 [main] ExecuteScript - Table dropped.
+[INFO ] 2022-05-30 20:28:44.163 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.175 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.175 [main] ExecuteScript - Table dropped.
+[INFO ] 2022-05-30 20:28:44.176 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.183 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.184 [main] ExecuteScript - Table dropped.
+[INFO ] 2022-05-30 20:28:44.184 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.194 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.195 [main] ExecuteScript - Table dropped.
+[INFO ] 2022-05-30 20:28:44.195 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.224 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.225 [main] ExecuteScript - Table created.
+[INFO ] 2022-05-30 20:28:44.225 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.250 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.250 [main] ExecuteScript - Table created.
+[INFO ] 2022-05-30 20:28:44.251 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.275 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.276 [main] ExecuteScript - Table created.
+[INFO ] 2022-05-30 20:28:44.276 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.320 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.320 [main] ExecuteScript - Table created.
+[INFO ] 2022-05-30 20:28:44.321 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.322 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.322 [main] ExecuteScript - 1 row created.
+[INFO ] 2022-05-30 20:28:44.322 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.323 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.323 [main] ExecuteScript - 1 row created.
+[INFO ] 2022-05-30 20:28:44.324 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.324 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.324 [main] ExecuteScript - 1 row created.
+[INFO ] 2022-05-30 20:28:44.325 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.325 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.326 [main] ExecuteScript - 1 row created.
+[INFO ] 2022-05-30 20:28:44.326 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.326 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.327 [main] ExecuteScript - 1 row created.
+[INFO ] 2022-05-30 20:28:44.327 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.327 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.327 [main] ExecuteScript - 1 row created.
+[INFO ] 2022-05-30 20:28:44.328 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.328 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.328 [main] ExecuteScript - 1 row created.
+[INFO ] 2022-05-30 20:28:44.329 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.329 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.329 [main] ExecuteScript - 1 row created.
+[INFO ] 2022-05-30 20:28:44.329 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.330 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.330 [main] ExecuteScript - 1 row created.
+[INFO ] 2022-05-30 20:28:44.331 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.331 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.331 [main] ExecuteScript - 1 row created.
+[INFO ] 2022-05-30 20:28:44.332 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.332 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.333 [main] ExecuteScript - 1 row created.
+[INFO ] 2022-05-30 20:28:44.333 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.334 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.334 [main] ExecuteScript - 1 row created.
+[INFO ] 2022-05-30 20:28:44.334 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.335 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.335 [main] ExecuteScript - 1 row created.
+[INFO ] 2022-05-30 20:28:44.335 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.335 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.336 [main] ExecuteScript - 1 row created.
+[INFO ] 2022-05-30 20:28:44.336 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.336 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.337 [main] ExecuteScript - 1 row created.
+[INFO ] 2022-05-30 20:28:44.337 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.337 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.337 [main] ExecuteScript - 1 row created.
+[INFO ] 2022-05-30 20:28:44.338 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.338 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.338 [main] ExecuteScript - 1 row created.
+[INFO ] 2022-05-30 20:28:44.338 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.339 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.339 [main] ExecuteScript - 1 row created.
+[INFO ] 2022-05-30 20:28:44.340 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.340 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.340 [main] ExecuteScript - 1 row updated.
+[INFO ] 2022-05-30 20:28:44.340 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.341 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.341 [main] ExecuteScript - 1 row created.
+[INFO ] 2022-05-30 20:28:44.341 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.341 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.342 [main] ExecuteScript - 1 row created.
+[INFO ] 2022-05-30 20:28:44.342 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.342 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.342 [main] ExecuteScript - 1 row created.
+[INFO ] 2022-05-30 20:28:44.343 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.343 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.343 [main] ExecuteScript - 1 row created.
+[INFO ] 2022-05-30 20:28:44.343 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.344 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.344 [main] ExecuteScript - 1 row created.
+[INFO ] 2022-05-30 20:28:44.344 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.345 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.345 [main] ExecuteScript - 1 row created.
+[INFO ] 2022-05-30 20:28:44.346 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.346 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.346 [main] ExecuteScript - 1 row created.
+[INFO ] 2022-05-30 20:28:44.346 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.347 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.347 [main] ExecuteScript - 1 row created.
+[INFO ] 2022-05-30 20:28:44.347 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.347 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.348 [main] ExecuteScript - Commit complete.
+[INFO ] 2022-05-30 20:28:44.348 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:28:44.348 [main] ExecuteScript - Disconnected from Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+[DEBUG] 2022-05-30 20:28:45.294 [main] TestClient - 11/04/19 12:00:00,000000-10000000A-2
+12/04/19 11:00:00,000000-10000000B-2
+12/04/19 12:00:00,000000-10000000C-2
+12/04/19 12:00:00,000000-20000000C-2
+12/04/19 13:00:00,000000-10000000C-3
+12/04/19 13:00:00,000000-20000000C-3
+13/04/19 14:00:00,000000-30000000A-3
+13/04/19 15:00:00,000000-30000000B-2
+13/04/19 16:00:00,000000-30000000C-1
+
+[ERROR] 2022-05-30 20:28:45.315 [main] TestClient - null
+[INFO ] 2022-05-30 20:42:39.011 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.016 [main] ExecuteScript - SQL*Plus: Release 11.2.0.2.0 Production on Lun May 30 20:42:39 2022
+[INFO ] 2022-05-30 20:42:39.017 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.018 [main] ExecuteScript - Copyright (c) 1982, 2014, Oracle.  All rights reserved.
+[INFO ] 2022-05-30 20:42:39.018 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.066 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.067 [main] ExecuteScript - Connected to:
+[INFO ] 2022-05-30 20:42:39.067 [main] ExecuteScript - Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+[INFO ] 2022-05-30 20:42:39.068 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.088 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.090 [main] ExecuteScript - Table dropped.
+[INFO ] 2022-05-30 20:42:39.090 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.103 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.104 [main] ExecuteScript - Table dropped.
+[INFO ] 2022-05-30 20:42:39.104 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.112 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.113 [main] ExecuteScript - Table dropped.
+[INFO ] 2022-05-30 20:42:39.113 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.123 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.124 [main] ExecuteScript - Table dropped.
+[INFO ] 2022-05-30 20:42:39.124 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.174 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.175 [main] ExecuteScript - Table created.
+[INFO ] 2022-05-30 20:42:39.175 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.203 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.203 [main] ExecuteScript - Table created.
+[INFO ] 2022-05-30 20:42:39.203 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.227 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.227 [main] ExecuteScript - Table created.
+[INFO ] 2022-05-30 20:42:39.228 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.273 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.273 [main] ExecuteScript - Table created.
+[INFO ] 2022-05-30 20:42:39.274 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.274 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.275 [main] ExecuteScript - 1 row created.
+[INFO ] 2022-05-30 20:42:39.275 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.275 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.275 [main] ExecuteScript - 1 row created.
+[INFO ] 2022-05-30 20:42:39.276 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.276 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.277 [main] ExecuteScript - 1 row created.
+[INFO ] 2022-05-30 20:42:39.277 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.277 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.278 [main] ExecuteScript - 1 row created.
+[INFO ] 2022-05-30 20:42:39.278 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.279 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.279 [main] ExecuteScript - 1 row created.
+[INFO ] 2022-05-30 20:42:39.279 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.279 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.280 [main] ExecuteScript - 1 row created.
+[INFO ] 2022-05-30 20:42:39.280 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.280 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.280 [main] ExecuteScript - 1 row created.
+[INFO ] 2022-05-30 20:42:39.281 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.281 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.281 [main] ExecuteScript - 1 row created.
+[INFO ] 2022-05-30 20:42:39.282 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.282 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.282 [main] ExecuteScript - 1 row created.
+[INFO ] 2022-05-30 20:42:39.283 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.283 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.283 [main] ExecuteScript - 1 row created.
+[INFO ] 2022-05-30 20:42:39.284 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.284 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.284 [main] ExecuteScript - 1 row created.
+[INFO ] 2022-05-30 20:42:39.285 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.285 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.285 [main] ExecuteScript - 1 row created.
+[INFO ] 2022-05-30 20:42:39.285 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.286 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.286 [main] ExecuteScript - 1 row created.
+[INFO ] 2022-05-30 20:42:39.286 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.287 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.287 [main] ExecuteScript - 1 row created.
+[INFO ] 2022-05-30 20:42:39.287 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.287 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.288 [main] ExecuteScript - 1 row created.
+[INFO ] 2022-05-30 20:42:39.288 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.288 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.289 [main] ExecuteScript - 1 row created.
+[INFO ] 2022-05-30 20:42:39.289 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.289 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.290 [main] ExecuteScript - 1 row created.
+[INFO ] 2022-05-30 20:42:39.290 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.290 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.290 [main] ExecuteScript - 1 row created.
+[INFO ] 2022-05-30 20:42:39.291 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.291 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.291 [main] ExecuteScript - 1 row updated.
+[INFO ] 2022-05-30 20:42:39.291 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.292 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.292 [main] ExecuteScript - 1 row created.
+[INFO ] 2022-05-30 20:42:39.292 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.292 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.293 [main] ExecuteScript - 1 row created.
+[INFO ] 2022-05-30 20:42:39.293 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.293 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.293 [main] ExecuteScript - 1 row created.
+[INFO ] 2022-05-30 20:42:39.294 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.294 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.294 [main] ExecuteScript - 1 row created.
+[INFO ] 2022-05-30 20:42:39.295 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.295 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.295 [main] ExecuteScript - 1 row created.
+[INFO ] 2022-05-30 20:42:39.296 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.296 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.296 [main] ExecuteScript - 1 row created.
+[INFO ] 2022-05-30 20:42:39.296 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.297 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.297 [main] ExecuteScript - 1 row created.
+[INFO ] 2022-05-30 20:42:39.297 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.297 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.298 [main] ExecuteScript - 1 row created.
+[INFO ] 2022-05-30 20:42:39.298 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.298 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.298 [main] ExecuteScript - Commit complete.
+[INFO ] 2022-05-30 20:42:39.298 [main] ExecuteScript - 
+[INFO ] 2022-05-30 20:42:39.299 [main] ExecuteScript - Disconnected from Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+[DEBUG] 2022-05-30 20:42:40.240 [main] TestClient - 11/04/19 12:00:00,000000-10000000A-2
+12/04/19 11:00:00,000000-10000000B-2
+12/04/19 12:00:00,000000-10000000C-2
+12/04/19 12:00:00,000000-20000000C-2
+12/04/19 13:00:00,000000-10000000C-3
+12/04/19 13:00:00,000000-20000000C-3
+13/04/19 14:00:00,000000-30000000A-3
+13/04/19 15:00:00,000000-30000000B-2
+13/04/19 16:00:00,000000-30000000C-1
+
+[ERROR] 2022-05-30 20:42:40.261 [main] TestClient - null
