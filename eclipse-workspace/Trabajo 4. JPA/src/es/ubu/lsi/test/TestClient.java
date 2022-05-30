@@ -17,7 +17,7 @@ import org.slf4j.LoggerFactory;
 import es.ubu.lsi.model.multas.Vehiculo;
 import es.ubu.lsi.model.multas.Conductor;
 import es.ubu.lsi.model.multas.Incidencia;
-import es.ubu.lsi.model.multas.TipoIncidencia;
+import es.ubu.lsi.model.multas.Tipoincidencia;
 import es.ubu.lsi.service.PersistenceException;
 import es.ubu.lsi.service.PersistenceFactorySingleton;
 import es.ubu.lsi.service.multas.IncidentError;
