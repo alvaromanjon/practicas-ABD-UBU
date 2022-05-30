@@ -5,6 +5,12 @@
 	<persistence-unit name="Multas">
 		<!-- Hibernate provider. -->
 		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+		<class>es.ubu.lsi.model.multas.Conductor</class>
+		<class>es.ubu.lsi.model.multas.Incidencia</class>
+		<class>es.ubu.lsi.model.multas.IncidenciaPK</class>
+		<class>es.ubu.lsi.model.multas.Tipoincidencia</class>
+		<class>es.ubu.lsi.model.multas.Vehiculo</class>
+		<class>es.ubu.lsi.model.multas.DireccionPostal</class>
 		
 		<!-- Eclipse Link provider (other provider) -->
 		<!-- <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider> -->

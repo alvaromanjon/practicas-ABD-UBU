@@ -1,5 +1,5 @@
 #This file is used by the JNDI FSContext.
-#Tue Mar 24 19:28:13 CET 2020
+#Mon May 30 17:44:31 CEST 2022
 jdbc/UCP_pool/RefAddr/7/Type=timeToLiveConnectionTimeout
 jdbc/UCP_pool/RefAddr/1/Type=portNumber
 jdbc/testdb_ds/RefAddr/2/Type=passWord
@@ -56,8 +56,8 @@ jdbc/UCP_pool/RefAddr/17/Encoding=String
 jdbc/UCP_pool/RefAddr/9/Type=maxIdleTime
 jdbc/UCP_pool/RefAddr/0/Content=jdbc\:oracle\:thin\:HR/hr@localhost\:1521\:xe
 jdbc/UCP_pool/RefAddr/13/Encoding=String
-jdbc/testdb_ds/RefAddr/2/Encoding=String
 jdbc/testdb_ds/RefAddr/3/Content=tcp
+jdbc/testdb_ds/RefAddr/2/Encoding=String
 jdbc/UCP_pool/RefAddr/7/Content=18000
 jdbc/UCP_pool/RefAddr/17/Type=connectionHarvestMaxCount
 jdbc/UCP_pool/RefAddr/9/Encoding=String
